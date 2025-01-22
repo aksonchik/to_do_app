@@ -9,7 +9,7 @@ class AboutUsPage extends StatelessWidget {
       backgroundColor: Colors.white, // Белый фон
       appBar: AppBar(
         title: const Text('About Us'),
-        backgroundColor: Color(0xFF123456),
+        backgroundColor: const Color(0xFF123456),
       ),
       body: const SingleChildScrollView(
         padding: EdgeInsets.all(16.0),

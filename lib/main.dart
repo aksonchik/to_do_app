@@ -17,7 +17,7 @@ class ToDoApp extends StatefulWidget {
 }
 
 class _ToDoAppState extends State<ToDoApp> {
-  List<Task> _tasks = [];
+  final List<Task> _tasks = [];
   final GlobalKey<AnimatedListState> _listKey = GlobalKey<AnimatedListState>();
   final Storage storage = Storage();
 
